@@ -1,0 +1,3 @@
+C:\Users\acer\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\NaGita.dir/objects.a
+C:\Mingw\mingw64\bin\ar.exe cr CMakeFiles\NaGita.dir/objects.a @CMakeFiles\NaGita.dir\objects1.rsp
+C:\Mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\NaGita.dir/objects.a -Wl,--no-whole-archive  -o NaGita.exe -Wl,--out-implib,libNaGita.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\NaGita.dir\linklibs.rsp
